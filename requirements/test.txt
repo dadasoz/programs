@@ -9,4 +9,4 @@ nose-ignore-docstring==0.2
 pep8==1.6.2
 pylint==1.4.4
 
-git+https://github.com/edx/edx-lint.git@v0.2.7#egg=edx_lint==0.2.7
+git+https://github.com/edx/edx-lint.git@ned/python3-compatibility#egg=edx_lint==0.2.7

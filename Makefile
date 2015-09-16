@@ -30,7 +30,7 @@ requirements:
 	pip install -qr requirements/local.txt --exists-action w
 
 test: clean
-	REUSE_DB=1 coverage run ./manage.py test programs --settings=programs.settings.test
+	coverage run ./manage.py test programs --settings=programs.settings.test
 	coverage report
 
 quality:

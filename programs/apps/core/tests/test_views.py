@@ -39,7 +39,7 @@ class HealthTests(TestCase):
             }
         }
 
-        self.assertJSONEqual(response.content, expected_data)
+        self.assertJSONEqual(str(response.content, encoding='utf8'), expected_data)
 
 
 class AutoAuthTests(TestCase):
